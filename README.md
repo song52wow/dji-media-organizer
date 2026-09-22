@@ -14,17 +14,17 @@
 
 ### 方式一：放进 Mavis user skills 目录（推荐）
 
-```bash
-git clone https://github.com/song52wow/dji-media-organizer.git
-mkdir -p ~/.minimax/skills
-cp -r dji-media-organizer ~/.minimax/skills/
-```
+按顺序做以下三步：
 
-下次启动 Mavis 就会自动加载 `dji-media-organizer` skill。
+1. 在终端进入你想放仓库的目录，运行 `git clone https://github.com/song52wow/dji-media-organizer.git`，把仓库克隆到当前文件夹。
+2. 创建 `~/.minimax/skills` 目录（如果已经存在就跳过这步）。在 macOS / Linux 终端用 `mkdir -p ~/.minimax/skills`；Windows PowerShell 用 `New-Item -ItemType Directory -Force -Path "$HOME\.minimax\skills"`。
+3. 把刚才克隆下来的 `dji-media-organizer` 整个文件夹复制（或移动）到 `~/.minimax/skills/` 下。
+
+完成后下次启动 Mavis 时，它会自动扫描到 `~/.minimax/skills/dji-media-organizer/SKILL.md` 并加载。
 
 ### 方式二：手动复制 `SKILL.md`
 
-只需要 `SKILL.md` 一个文件。把它放到任何 Mavis 能扫描到的 skill 目录下即可。
+只需要 `SKILL.md` 一个文件。把它放到任何 Mavis 能扫描到的 skill 目录下即可。无需 `git clone`，也无需复制整个仓库。
 
 ## 使用
 
