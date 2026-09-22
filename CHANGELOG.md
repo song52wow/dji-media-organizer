@@ -2,7 +2,7 @@
 
 All notable changes to this skill are documented here. Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
-## [Unreleased]
+## [1.2.0] - 2026-09-22
 
 ### Changed
 - **不再限定 `DJI_001`**：扫描目标改为「用户指定的目录，未指定则当前项目目录」，
@@ -65,6 +65,7 @@ All notable changes to this skill are documented here. Format follows [Keep a Ch
 - macOS 清理 `._` AppleDouble 影子文件
 - 处理 SD 卡挂载在 `/Volumes/.../DJI Device/<设备名>/` 下的常见路径
 
-[Unreleased]: https://github.com/song52wow/dji-media-organizer/compare/719be028...HEAD
+[Unreleased]: https://github.com/song52wow/dji-media-organizer/compare/6c93c51...HEAD
+[1.2.0]: https://github.com/song52wow/dji-media-organizer/compare/719be028...6c93c51
 [1.1.0]: https://github.com/song52wow/dji-media-organizer/compare/9e4ae13b...719be028
 [1.0.0]: https://github.com/song52wow/dji-media-organizer/commit/9e4ae13b
