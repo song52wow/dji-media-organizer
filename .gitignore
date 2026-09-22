@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test fixtures
+test-fixtures/
+
+# Local development artifacts
+*.log
+.env
+.env.local
